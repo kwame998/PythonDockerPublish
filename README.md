@@ -4,8 +4,12 @@
 
 pip3 install pipreqs
 
+######create requirements.txt
 pipreqs .
 
+
+
+#####deprecated
 #####pip3 freeze > requirements.txt
 
 docker build -t my-python-app .
